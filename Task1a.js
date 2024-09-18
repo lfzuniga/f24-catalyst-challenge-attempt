@@ -23,6 +23,10 @@ const todoList = [];
  */
 function addAndPrintTodos() {
     // YOUR CODE HERE
+    todoList.push("Apply to y/cs!")
+    todoList.push("Pick out my classes")
+    todoList.push("Have dinner with my suite")
+    console.log(todoList)
 }
 
 /**
@@ -33,6 +37,7 @@ function addAndPrintTodos() {
 function mainTask1a() {
     addAndPrintTodos()
 }
+
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error
 if (require.main === module) {
